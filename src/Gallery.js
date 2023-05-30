@@ -13,7 +13,7 @@ import img10 from './img/img1.jpg';
 import img11 from './img/img1.jpg';
 
 const Gallery = () => {
-
+    
     let data =[
         {
             id: 1,
