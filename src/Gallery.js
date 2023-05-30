@@ -61,7 +61,19 @@ const Gallery = () => {
         }
     ]
     return(
-        <h1>Gallery</h1>
+        <>
+        <div className="gallery">
+            {
+                data.map((item, index)=>{
+                    return(
+                        <div className="pics" key={index}>
+                            <img src={item.imgSrc} />
+                        </div>
+                    )
+                })
+            }
+        </div>
+        </>
     )
 }
 
