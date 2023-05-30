@@ -1,4 +1,5 @@
 import React from 'react';
+import './gallery.css';
 
 import img1 from './img/img1.jpg';
 import img2 from './img/img2.jpg';
@@ -62,6 +63,7 @@ const Gallery = () => {
     ]
     return(
         <>
+        <h1 style={{textAlign: 'center'}}>Gallery</h1>
         <div className="gallery">
             {
                 data.map((item, index)=>{
