@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import './gallery.css';
+import CloseIcon from '@mui/icons-material/Close';
 
 import img1 from './img/img1.jpg';
 import img2 from './img/img2.jpg';
@@ -77,6 +78,7 @@ const Gallery = () => {
         <>
         <div className={model? "model open":"model"}>
             <img src={tempimgSrc} />
+            <CloseIcon />
         </div>
         <h1 style={{textAlign: 'center'}}>Gallery</h1>
         <div className="gallery">
