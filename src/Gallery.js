@@ -78,7 +78,7 @@ const Gallery = () => {
         <>
         <div className={model? "model open":"model"}>
             <img src={tempimgSrc} />
-            <CloseIcon />
+            <CloseIcon onClick={() => setModel(false)} />
         </div>
         <h1 style={{textAlign: 'center'}}>Gallery</h1>
         <div className="gallery">
