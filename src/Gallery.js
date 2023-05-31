@@ -12,6 +12,7 @@ import img8 from './img/img8.jpg';
 import img9 from './img/img9.png';
 import img10 from './img/img10.jpg';
 import img11 from './img/img11.jpg';
+import img12 from './img/img12.jpg';
 
 const Gallery = () => {
     
@@ -59,6 +60,10 @@ const Gallery = () => {
         {
             id: 11,
             imgSrc: img11,
+        },
+        {
+            id: 12,
+            imgSrc: img12,
         }
     ]
     return(
